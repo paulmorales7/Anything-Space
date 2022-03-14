@@ -14,3 +14,16 @@ body{
     color: white;
     border-radius: 20px;
 }
+
+.main img {
+    width: 200px;
+}
+
+.aqua {
+    /* border-radius: 50%; */
+    width: 50px;
+    position: absolute;
+    left: 25rem;
+    top: 30rem;
+    /* border-radius: 50%; */
+}
