@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+body{
+    font-family: 'Hubballi', cursive;
+    background-image: url('./images/stars.jpg');
+}
+
+.main {
+    width: 90%;
+    height: 85vh;
+    margin-left: 6.5rem;
+    margin-top: 5rem;
+    background-color: rgba(90, 96, 117, .97);
+    color: white;
+    border-radius: 20px;
+}
