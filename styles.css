@@ -17,13 +17,14 @@ body{
 
 .main img {
     width: 200px;
+    margin-left: 100px;
 }
 
-.aqua {
-    /* border-radius: 50%; */
-    width: 50px;
-    position: absolute;
-    left: 25rem;
-    top: 30rem;
-    /* border-radius: 50%; */
+.info {
+    width: 500px;
+    margin-left: 40rem;
+    margin-top: 4rem;
+    font-size: 25px;
+    /* display: block; */
 }
+
