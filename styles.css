@@ -23,8 +23,24 @@ body{
 .info {
     width: 500px;
     margin-left: 40rem;
-    margin-top: 4rem;
+    margin-top: -5rem;
     font-size: 25px;
     /* display: block; */
+}
+
+.info h3 {
+    font-size: 28px;
+    width: 620px;
+}
+
+a {
+    position: relative;
+    float: right;
+    top: 3rem;
+    right: 13rem;
+    font-size: 32px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
 
