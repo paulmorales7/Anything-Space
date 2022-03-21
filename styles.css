@@ -5,6 +5,30 @@ body{
     background-image: url('./images/stars.jpg');
 }
 
+#linkedin {
+font-size: 38px;
+margin-left: 30px;
+margin-top: 21px;
+margin-right: 15px;
+color: white;
+}
+
+
+#github {
+    color: white;
+    font-size: 35px;
+    margin-top: 21px;
+    margin-right: 20px;
+}
+
+.links {
+    float: right;
+    display: flex;
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
 .main {
     width: 90%;
     height: 85vh;
@@ -35,15 +59,3 @@ body{
     font-size: 28px;
     width: 620px;
 }
-
-a {
-    position: relative;
-    float: right;
-    top: 3rem;
-    right: 13rem;
-    font-size: 32px;
-    color: white;
-    cursor: pointer;
-    text-decoration: none;
-}
-
