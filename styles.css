@@ -3,7 +3,12 @@
 body{
     font-family: 'Hubballi', cursive;
     background-image: url('./images/stars.jpg');
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+/* header  */
 
 #linkedin {
 font-size: 38px;
@@ -47,6 +52,8 @@ color: white;
     margin-left: 100px;
 }
 
+/* main info  */
+
 .info {
     width: 500px;
     margin-left: 40rem;
@@ -58,4 +65,53 @@ color: white;
 .info h3 {
     font-size: 28px;
     width: 620px;
+}
+
+/* sliding menu  */
+
+.horiz-scroll {
+    width: 700px;
+    height: 90px;
+    border: 1px solid gold;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin-left: 34rem;
+    margin-top: 8rem;
+}
+
+.signs-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    left: 0;
+}
+
+.signs-circle {
+    width: 60px;
+    height: 60px;
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.signs-circle img {
+    width: 65px;
+    height: 65px;
+}
+
+.horiz-scroll .btn-scroll {
+    background-color: gold;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 50%;
+    margin: 0 5px;
+    z-index: 1;
 }
