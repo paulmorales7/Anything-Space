@@ -29,3 +29,12 @@ function scrollHorizontally(val) {
 
     signsCont.style.left = scrollPosition + "px";
 }
+
+
+function doSome() {
+
+    var para = document.getElementById("mainPara");
+
+    para.innerText = "hello"
+
+}
