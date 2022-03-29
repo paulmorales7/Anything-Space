@@ -33,8 +33,10 @@ function scrollHorizontally(val) {
 
 function doSome() {
 
-    var para = document.getElementById("mainPara");
+    let aries = document.querySelector('.starImg');
 
-    para.innerText = "hello"
+    aries.src = './images/aries-star.png'
+    
+    document.querySelector('#mainPara').innerHTML = 'hello';
 
 }
