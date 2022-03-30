@@ -67,6 +67,12 @@ color: white;
     width: 620px;
 }
 
+#starImg {
+    width: 140px;
+    position: absolute;
+    top: 3rem;
+}
+
 /* sliding menu  */
 
 .horiz-scroll {
@@ -81,7 +87,7 @@ color: white;
     position: relative;
     overflow: hidden;
     margin-left: 34rem;
-    margin-top: 8rem;
+    margin-top: 18rem;
 }
 
 .signs-container {

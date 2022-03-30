@@ -31,11 +31,11 @@ function scrollHorizontally(val) {
 }
 
 
-function doSome() {
+function ariesFunc() {
 
-    let aries = document.querySelector('.starImg');
+     let image = document.querySelector('#starImg');
+     image.src = "./images/aries-star.png"
 
-    aries.src = './images/aries-star.png'
     
     document.querySelector('#mainPara').innerHTML = 'hello';
 
