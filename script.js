@@ -30,13 +30,54 @@ function scrollHorizontally(val) {
     signsCont.style.left = scrollPosition + "px";
 }
 
+// image change functions
 
 function ariesFunc() {
 
      let image = document.querySelector('#starImg');
+     
      image.src = "./images/aries-star.png"
 
+     var styles = {
+         "margin-bottom": "-6rem",
+         "width": "165px"
+     }
+
+    Object.assign(image.style, styles)
     
-    document.querySelector('#mainPara').innerHTML = 'hello';
+    document.querySelector('#mainPara').innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nostrum expedita suscipit veniam, voluptatem ullam natus voluptatum hic delectus architecto?';
+
+    document.querySelector('#signTitle').innerHTML = 'Aries'
+}
+
+function taurusFunc() {
+
+     let image = document.querySelector('#starImg');
+     image.src = "./images/taurus-star.png"
+
+     var styles = {
+         "margin-bottom": "-2rem",
+         "width": "175px"
+     }
+
+    Object.assign(image.style, styles)
+    
+    document.querySelector('#mainPara').innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nostrum expedita suscipit veniam, voluptatem ullam natus voluptatum hic delectus architecto?';
+
+}
+
+function geminiFunc() {
+
+     let image = document.querySelector('#starImg');
+     image.src = "./images/gemini-star.png"
+
+     var styles = {
+         "margin-bottom": "1.5rem",
+         "width": "175px"
+     }
+
+    Object.assign(image.style, styles)
+    
+    document.querySelector('#mainPara').innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nostrum expedita suscipit veniam, voluptatem ullam natus voluptatum hic delectus architecto?';
 
 }

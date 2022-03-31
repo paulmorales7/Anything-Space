@@ -55,22 +55,31 @@ color: white;
 /* main info  */
 
 .info {
-    width: 500px;
+    width: 700px;
     margin-left: 40rem;
     margin-top: -5rem;
     font-size: 25px;
+    display: flex;
     /* display: block; */
+}
+
+.links h1 {
+    font-size: 50px;
+    margin-right: 27rem;
 }
 
 .info h3 {
     font-size: 28px;
-    width: 620px;
+    width: 720px;
+    position: relative;
+    top: 10rem;
 }
 
 #starImg {
-    width: 140px;
-    position: absolute;
-    top: 3rem;
+    width: 250px;
+    position: relative;
+    right: 10rem;
+    top: 4rem;
 }
 
 /* sliding menu  */
@@ -87,7 +96,7 @@ color: white;
     position: relative;
     overflow: hidden;
     margin-left: 34rem;
-    margin-top: 18rem;
+    margin-top: 12rem;
 }
 
 .signs-container {
