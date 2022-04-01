@@ -55,12 +55,20 @@ color: white;
 /* main info  */
 
 .info {
-    width: 700px;
+    /* width: 700px; */
+    margin-left: 40rem;
+    margin-top: -5rem;
+    /* font-size: 25px; */
+    /* display: flex; */
+    /* display: block; */
+}
+
+.description {
+    width: 500px;
     margin-left: 40rem;
     margin-top: -5rem;
     font-size: 25px;
     display: flex;
-    /* display: block; */
 }
 
 .links h1 {

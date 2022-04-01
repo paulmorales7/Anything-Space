@@ -64,6 +64,7 @@ function taurusFunc() {
     
     document.querySelector('#mainPara').innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nostrum expedita suscipit veniam, voluptatem ullam natus voluptatum hic delectus architecto?';
 
+    document.querySelector('#signTitle').innerHTML = 'Taurus'
 }
 
 function geminiFunc() {
@@ -80,4 +81,5 @@ function geminiFunc() {
     
     document.querySelector('#mainPara').innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nostrum expedita suscipit veniam, voluptatem ullam natus voluptatum hic delectus architecto?';
 
+    document.querySelector('#signTitle').innerHTML = 'Gemini'
 }
