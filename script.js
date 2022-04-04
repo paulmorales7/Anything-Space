@@ -45,7 +45,7 @@ function ariesFunc() {
 
     Object.assign(image.style, styles)
     
-    document.querySelector('#mainPara').innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nostrum expedita suscipit veniam, voluptatem ullam natus voluptatum hic delectus architecto?';
+    document.querySelector('#mainPara').innerHTML = 'Aries is the first sign of the Zodiac. They are associated with fresh vigor and new beginnings. Individuals born under this sign are said to have an enthusiastic, adventurous, and passionate character. They are usually ambitious, humorous, and pioneering.';
 
     document.querySelector('#signTitle').innerHTML = 'Aries'
 }

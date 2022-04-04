@@ -55,25 +55,40 @@ color: white;
 /* main info  */
 
 .info {
-    /* width: 700px; */
     margin-left: 40rem;
-    margin-top: -5rem;
+    margin-top: -6rem;
     /* font-size: 25px; */
     /* display: flex; */
     /* display: block; */
 }
 
 .description {
-    width: 500px;
-    margin-left: 40rem;
-    margin-top: -5rem;
+    width: 550px;
+    margin-left: 70rem;
+    margin-top: -15rem;
     font-size: 25px;
-    display: flex;
+    text-shadow: 0px 2px 1px rgba(238,238,4,0.6);
 }
 
-.links h1 {
-    font-size: 50px;
+.traits {
+    width: 400px;
+    position: relative;
+    left: 12rem;
+    top: -11rem;
+    font-size: 25px;
+    text-shadow: 0px 2px 1px rgba(238,238,4,0.6);
+}
+
+#descDate {
+    font-size: 27px;
+}
+
+#signTitle {
+    font-size: 80px;
     margin-right: 27rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    color: gold;
 }
 
 .info h3 {
@@ -84,16 +99,21 @@ color: white;
 }
 
 #starImg {
-    width: 250px;
+    width: 280px;
     position: relative;
-    right: 10rem;
-    top: 4rem;
+    top: 2rem;
 }
 
+#moreInfo {
+   text-decoration: none; 
+   color: white;
+   text-shadow: -2px 5px 2px rgba(238,238,4,0.6);
+   font-weight: bolder;
+}
 /* sliding menu  */
 
 .horiz-scroll {
-    width: 715px;
+    width: 730px;
     height: 90px;
     border: 1px solid gold;
     border-radius: 5px;
@@ -104,7 +124,7 @@ color: white;
     position: relative;
     overflow: hidden;
     margin-left: 34rem;
-    margin-top: 12rem;
+    margin-top: -10rem;
 }
 
 .signs-container {
@@ -143,4 +163,10 @@ color: white;
     cursor: pointer;
     box-shadow: 0 0 5px white;
     transition: .5s;
+}
+
+.menu h2 {
+    text-shadow: 0px 2px 1px rgba(238,238,4,0.6);
+    position: relative;
+    margin-left: 47rem;
 }
