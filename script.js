@@ -221,3 +221,180 @@ function virgoFunc() {
 
     document.querySelector('#signTitle').innerHTML = 'Virgo'
 }
+
+function libraFunc() {
+
+     let image = document.querySelector('#starImg');
+     image.src = "./images/libra-star.png"
+
+     var styles = {
+         "margin-bottom": ".5rem",
+         "width": "195px"
+     }
+
+    Object.assign(image.style, styles)
+    
+    document.querySelector('#mainPara').innerHTML = 'Libras are extroverted and friendly people. Like the scales that symbolize the sign, they are often concerned with attaining balance, harmony, peace, and justice in the world. With their abundance in charm, intelligence, frankness, persuasion, and seamless connectivity, they are well equipped to do so.'
+
+    document.querySelector('#descSign').innerHTML = 'Element: AIR'
+
+    document.querySelector('#descDate').innerHTML = 'Dates: SEPTEMBER 23 - OCTOBER 22'
+
+    document.querySelector('#descComp').innerHTML = 'Compatibility: ARIES, SAGITTARIUS'
+
+    document.querySelector('#descColor').innerHTML = 'Color: PINK, GREEN'
+
+    document.querySelector('#descNum').innerHTML = 'Lucky Numbers: 4, 6, 13, 15, 24'
+
+    document.querySelector('#signTitle').innerHTML = 'Libra'
+}
+
+function scorpioFunc() {
+
+     let image = document.querySelector('#starImg');
+     image.src = "./images/scorpio-star.png"
+
+     let anchor = document.querySelector('#moreInfo');
+     anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/scorpio/"
+
+     var styles = {
+         "margin-bottom": ".5rem",
+         "width": "195px"
+     }
+
+    Object.assign(image.style, styles)
+    
+    document.querySelector('#mainPara').innerHTML = 'Scorpios are strong, enigmatic, independent characters who crackle with an intensity and charisma that makes them un-ignorable. For all of that power though, they often remain un-knowable to others, because they guard themselves and their private lives fiercely.'
+
+    document.querySelector('#descSign').innerHTML = 'Element: WATER'
+
+    document.querySelector('#descDate').innerHTML = 'Dates: OCTOBER 23 - NOVEMBER 21'
+
+    document.querySelector('#descComp').innerHTML = 'Compatibility: TAURUS, CANCER'
+
+    document.querySelector('#descColor').innerHTML = 'Color: SCARLET, RED, RUST'
+
+    document.querySelector('#descNum').innerHTML = 'Lucky Numbers: 8, 11, 18, 22'
+
+    document.querySelector('#signTitle').innerHTML = 'Scorpio'
+}
+
+function sagFunc() {
+
+     let image = document.querySelector('#starImg');
+     image.src = "./images/sagittarius-star.png"
+
+     let anchor = document.querySelector('#moreInfo');
+     anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/sagittarius/"
+
+     var styles = {
+         "margin-bottom": ".5rem",
+         "width": "195px"
+     }
+
+    Object.assign(image.style, styles)
+    
+    document.querySelector('#mainPara').innerHTML = 'Scorpios are strong, enigmatic, independent characters who crackle with an intensity and charisma that makes them un-ignorable. For all of that power though, they often remain un-knowable to others, because they guard themselves and their private lives fiercely.'
+
+    document.querySelector('#descSign').innerHTML = 'Element: FIRE'
+
+    document.querySelector('#descDate').innerHTML = 'Dates: NOVEMBER 22 - DECEMBER 21'
+
+    document.querySelector('#descComp').innerHTML = 'Compatibility: GEMINI, ARIES'
+
+    document.querySelector('#descColor').innerHTML = 'Color: BLUE'
+
+    document.querySelector('#descNum').innerHTML = 'Lucky Numbers: 3, 7, 9, 12, 21'
+
+    document.querySelector('#signTitle').innerHTML = 'Sagittarius'
+}
+
+function capricornFunc() {
+
+     let image = document.querySelector('#starImg');
+     image.src = "./images/capricorn-star.png"
+
+     let anchor = document.querySelector('#moreInfo');
+     anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/capricorn/"
+
+     var styles = {
+         "margin-bottom": ".5rem",
+         "width": "195px"
+     }
+
+    Object.assign(image.style, styles)
+    
+    document.querySelector('#mainPara').innerHTML = 'Capricorns are the hardest workers of the zodiac and love nothing more than getting ahead in life. They are ambitious, determined, materialistic and strong. They will keep going when others would’ve given up ten miles back. This makes them great partners in life, as well as friends or collaborators.'
+
+    document.querySelector('#descSign').innerHTML = 'Element: EARTH'
+
+    document.querySelector('#descDate').innerHTML = 'Dates: DECEMBER 22 - JANUARY 19'
+
+    document.querySelector('#descComp').innerHTML = 'Compatibility: TAURUS, CANCER'
+
+    document.querySelector('#descColor').innerHTML = 'Color: BROWN, BLACK'
+
+    document.querySelector('#descNum').innerHTML = 'Lucky Numbers: 4, 8, 13, 22'
+
+    document.querySelector('#signTitle').innerHTML = 'Capricorn'
+}
+
+function aquariusFunc() {
+
+     let image = document.querySelector('#starImg');
+     image.src = "./images/aquarius-star.png"
+
+     let anchor = document.querySelector('#moreInfo');
+     anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/aquarius/"
+
+     var styles = {
+         "margin-bottom": ".5rem",
+         "width": "195px"
+     }
+
+    Object.assign(image.style, styles)
+    
+    document.querySelector('#mainPara').innerHTML = 'Aquarius people are advanced, self-reliant, clever, exceptional, and optimistic. Aquarians, like air, lack a distinct form and appear to resist classification. Others are enthusiastic and active, while other Aquarians are calm and sensitive.'
+
+    document.querySelector('#descSign').innerHTML = 'Element: AIR'
+
+    document.querySelector('#descDate').innerHTML = 'Dates: JANUARY 20 - FEBRUARY 19'
+
+    document.querySelector('#descComp').innerHTML = 'Compatibility: LEO, SAGITTARIUS'
+
+    document.querySelector('#descColor').innerHTML = 'Color: LIGHT-BLUE, SILVER'
+
+    document.querySelector('#descNum').innerHTML = 'Lucky Numbers: 4, 7, 11, 22, 29'
+
+    document.querySelector('#signTitle').innerHTML = 'Aquarius'
+}
+
+function piscesFunc() {
+
+     let image = document.querySelector('#starImg');
+     image.src = "./images/pisces-star.png"
+
+     let anchor = document.querySelector('#moreInfo');
+     anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/pisces/"
+
+     var styles = {
+         "margin-bottom": ".5rem",
+         "width": "195px"
+     }
+
+    Object.assign(image.style, styles)
+    
+    document.querySelector('#mainPara').innerHTML = 'Pisces people are known for being emotionally sensitive, gracious, and emotionally aware. Pisces characters are regarded for being among the most sympathetic of the zodiac signs, and they will go to great lengths to ensure the happiness of those around them. They are also very creative and imaginative.'
+
+    document.querySelector('#descSign').innerHTML = 'Element: WATER'
+
+    document.querySelector('#descDate').innerHTML = 'Dates: FEBRUARY 19 - MARCH 20'
+
+    document.querySelector('#descComp').innerHTML = 'Compatibility: VIRGO, TAURUS'
+
+    document.querySelector('#descColor').innerHTML = 'Color: MUAVE, LILAC, PURPLE'
+
+    document.querySelector('#descNum').innerHTML = 'Lucky Numbers: 3, 9, 12, 15, 18, 24'
+
+    document.querySelector('#signTitle').innerHTML = 'Pisces'
+}
