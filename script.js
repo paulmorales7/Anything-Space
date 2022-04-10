@@ -39,7 +39,7 @@ function ariesFunc() {
      image.src = "./images/aries-star.png"
 
      var styles = {
-         "margin-bottom": "-6rem",
+         "margin-bottom": "-4rem",
          "width": "165px"
      }
 
@@ -66,7 +66,7 @@ function taurusFunc() {
      image.src = "./images/taurus-star.png"
 
      var styles = {
-         "margin-bottom": "-.77rem",
+         "margin-bottom": "-4rem",
          "width": "195px"
      }
 
@@ -93,7 +93,7 @@ function geminiFunc() {
      image.src = "./images/gemini-star.png"
 
      var styles = {
-         "margin-bottom": "3.2rem",
+         "margin-bottom": "-1.85rem",
          "width": "195px"
      }
 
@@ -119,39 +119,15 @@ function cancerFunc() {
      let image = document.querySelector('#starImg');
      image.src = "./images/cancer-star.png"
 
+
+
      var styles = {
-         "margin-bottom": "1.2rem",
+         "margin-bottom": "-7.7rem",
          "width": "195px"
      }
 
     Object.assign(image.style, styles)
-    
-    document.querySelector('#mainPara').innerHTML = 'Cancers have a reputation for being hyper emotional, temperamental, and spiteful. Cancers, in additional to being devoted, are extremely fond of their loved ones, often to an unhealthy degree. They place a high value on family and close friends, and will go to great lengths to defend them, no matter the price. Very reliant on their instincts, usually acting upon them.'
-
-    document.querySelector('#descSign').innerHTML = 'Element: WATER'
-
-    document.querySelector('#descDate').innerHTML = 'Dates: JUNE 21 - JULY 22'
-
-    document.querySelector('#descComp').innerHTML = 'Compatibility: CAPRICORN, TAURUS'
-
-    document.querySelector('#descColor').innerHTML = 'Color: WHITE'
-
-    document.querySelector('#descNum').innerHTML = 'Lucky Numbers: 2, 3, 15, 20'
-
-    document.querySelector('#signTitle').innerHTML = 'Cancer'
-}
-
-function cancerFunc() {
-
-     let image = document.querySelector('#starImg');
-     image.src = "./images/cancer-star.png"
-
-     var styles = {
-         "margin-bottom": "1.2rem",
-         "width": "195px"
-     }
-
-    Object.assign(image.style, styles)
+ 
     
     document.querySelector('#mainPara').innerHTML = 'Cancers have a reputation for being hyper emotional, temperamental, and spiteful. Cancers, in additional to being devoted, are extremely fond of their loved ones, often to an unhealthy degree. They place a high value on family and close friends, and will go to great lengths to defend them, no matter the price. Very reliant on their instincts, usually acting upon them.'
 
@@ -174,7 +150,7 @@ function leoFunc() {
      image.src = "./images/leo-star.png"
 
      var styles = {
-         "margin-bottom": "1.2rem",
+         "margin-bottom": "-11.8rem",
          "width": "195px"
      }
 
@@ -200,14 +176,42 @@ function virgoFunc() {
      let image = document.querySelector('#starImg');
      image.src = "./images/virgo-star.png"
 
+     let desc = document.querySelector('.description');
+
+     let scroll = document.querySelector('.horiz-scroll');
+
+     let traits = document.querySelector('.traits');
+
+     let learn = document.querySelector('.learnMore');
+
      var styles = {
-         "margin-bottom": "1.2rem",
-         "width": "195px"
+         "margin-bottom": "-25rem",
+         "width": "215px"
+     }
+
+     var descStyles = {
+         "margin-top": "3rem"
+     }
+
+     var scrollStyle = {
+         "bottom": "4rem"
+     }
+
+     var traitStyle = {
+         "top": "-20rem"
+     }
+
+     var learnStyle = {
+         "bottom": "4rem"
      }
 
     Object.assign(image.style, styles)
+    Object.assign(desc.style, descStyles)
+    Object.assign(scroll.style, scrollStyle)
+    Object.assign(traits.style, traitStyle)
+    Object.assign(learn.style, learnStyle)
     
-    document.querySelector('#mainPara').innerHTML = 'Virgos are known for being perfectionists, and can be meticulous and single-minded in their pursuit of improvement. However, this also makes them extremely dedicated to the people in their lives, and helps them find success professionally. Virgos are very hard workers and are not afraid to throw themselves into work, no matter the difficulty of the task. This also means they have high standards and can be overly judgemental and critical towards others and their work.'
+    document.querySelector('#mainPara').innerHTML = 'Virgos are known for being perfectionists, and can be meticulous and single-minded in their pursuit of improvement. However, this also makes them extremely dedicated to the people in their lives, and helps them find success professionally. Virgos are very hard workers and are not afraid to throw themselves into work, no matter the difficulty of the task.'
 
     document.querySelector('#descSign').innerHTML = 'Element: EARTH'
 
