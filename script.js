@@ -38,6 +38,9 @@ function ariesFunc() {
      
      image.src = "./images/aries-star.png"
 
+     let anchor = document.querySelector('#moreInfo');
+     anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/aries/"
+
      var styles = {
          "margin-bottom": "-4rem",
          "width": "165px"
@@ -64,6 +67,9 @@ function taurusFunc() {
 
      let image = document.querySelector('#starImg');
      image.src = "./images/taurus-star.png"
+
+     let anchor = document.querySelector('#moreInfo');
+     anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/taurus/"
 
      var styles = {
          "margin-bottom": "-4rem",
@@ -92,6 +98,9 @@ function geminiFunc() {
      let image = document.querySelector('#starImg');
      image.src = "./images/gemini-star.png"
 
+     let anchor = document.querySelector('#moreInfo');
+     anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/gemini/"
+
      var styles = {
          "margin-bottom": "-1.85rem",
          "width": "195px"
@@ -119,7 +128,8 @@ function cancerFunc() {
      let image = document.querySelector('#starImg');
      image.src = "./images/cancer-star.png"
 
-
+     let anchor = document.querySelector('#moreInfo');
+     anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/cancer/"
 
      var styles = {
          "margin-bottom": "-7.7rem",
@@ -149,6 +159,9 @@ function leoFunc() {
      let image = document.querySelector('#starImg');
      image.src = "./images/leo-star.png"
 
+     let anchor = document.querySelector('#moreInfo');
+     anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/leo/"
+
      var styles = {
          "margin-bottom": "-11.8rem",
          "width": "195px"
@@ -175,6 +188,9 @@ function virgoFunc() {
 
      let image = document.querySelector('#starImg');
      image.src = "./images/virgo-star.png"
+
+     let anchor = document.querySelector('#moreInfo');
+     anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/virgo/"
 
      let desc = document.querySelector('#mainPara');
 
@@ -230,6 +246,9 @@ function libraFunc() {
 
      let image = document.querySelector('#starImg');
      image.src = "./images/libra-star.png"
+
+     let anchor = document.querySelector('#moreInfo');
+     anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/libra/"
 
      var styles = {
          "margin-bottom": "-7rem",
