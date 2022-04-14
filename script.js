@@ -176,7 +176,7 @@ function virgoFunc() {
      let image = document.querySelector('#starImg');
      image.src = "./images/virgo-star.png"
 
-     let desc = document.querySelector('.description');
+     let desc = document.querySelector('#mainPara');
 
      let scroll = document.querySelector('.horiz-scroll');
 
@@ -198,7 +198,7 @@ function virgoFunc() {
      }
 
      var traitStyle = {
-         "top": "-20rem"
+         "top": "-18rem"
      }
 
      var learnStyle = {
@@ -232,7 +232,7 @@ function libraFunc() {
      image.src = "./images/libra-star.png"
 
      var styles = {
-         "margin-bottom": ".5rem",
+         "margin-bottom": "-7rem",
          "width": "195px"
      }
 
@@ -262,8 +262,8 @@ function scorpioFunc() {
      anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/scorpio/"
 
      var styles = {
-         "margin-bottom": ".5rem",
-         "width": "195px"
+         "margin-bottom": "5.4rem",
+         "width": "300px"
      }
 
     Object.assign(image.style, styles)
@@ -292,13 +292,13 @@ function sagFunc() {
      anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/sagittarius/"
 
      var styles = {
-         "margin-bottom": ".5rem",
+         "margin-bottom": "-2rem",
          "width": "195px"
      }
 
     Object.assign(image.style, styles)
     
-    document.querySelector('#mainPara').innerHTML = 'Scorpios are strong, enigmatic, independent characters who crackle with an intensity and charisma that makes them un-ignorable. For all of that power though, they often remain un-knowable to others, because they guard themselves and their private lives fiercely.'
+    document.querySelector('#mainPara').innerHTML = 'Sag are captivating characters who can light up any room with their exhilarating tales, infectious laughter, and dynamic charm. Effortlessly magnetic, they easily attract friends and lovers with their innate humor. Sagittarius are definitely the comedians of the zodiac, who infuse all of their conversations with their signature "no nonsense" attitude. '
 
     document.querySelector('#descSign').innerHTML = 'Element: FIRE'
 
