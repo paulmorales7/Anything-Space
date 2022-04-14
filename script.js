@@ -209,23 +209,23 @@ function virgoFunc() {
          "margin-top": "3rem"
      }
 
-     var scrollStyle = {
-         "bottom": "4rem"
-     }
+    //  var scrollStyle = {
+    //      "bottom": "4rem"
+    //  }
 
-     var traitStyle = {
-         "top": "-18rem"
-     }
+    //  var traitStyle = {
+    //      "top": "-18rem"
+    //  }
 
-     var learnStyle = {
-         "bottom": "4rem"
-     }
+    //  var learnStyle = {
+    //      "bottom": "4rem"
+    //  }
 
     Object.assign(image.style, styles)
     Object.assign(desc.style, descStyles)
-    Object.assign(scroll.style, scrollStyle)
-    Object.assign(traits.style, traitStyle)
-    Object.assign(learn.style, learnStyle)
+    // Object.assign(scroll.style, scrollStyle)
+    // Object.assign(traits.style, traitStyle)
+    // Object.assign(learn.style, learnStyle)
     
     document.querySelector('#mainPara').innerHTML = 'Virgos are known for being perfectionists, and can be meticulous and single-minded in their pursuit of improvement. However, this also makes them extremely dedicated to the people in their lives, and helps them find success professionally. Virgos are very hard workers and are not afraid to throw themselves into work, no matter the difficulty of the task.'
 
@@ -421,3 +421,34 @@ function piscesFunc() {
 
     document.querySelector('#signTitle').innerHTML = 'Pisces'
 }
+
+// API 
+
+// let horoscope = document.querySelector('.horoBtn');
+// let image = document.querySelector('#starImg')
+
+
+// function getHoro() {
+//     fetch("https://sameer-kumar-aztro-v1.p.rapidapi.com/?sign=libra&day=yesterday", {
+//         "method": "POST",
+//         "headers": {
+//             "x-rapidapi-host": "sameer-kumar-aztro-v1.p.rapidapi.com",
+//             "x-rapidapi-key": "e9ba0571fcmshf76e484ea6bc956p15a46ajsn80fa8a7712dd"
+//         }
+//     })
+//     .then(response => {
+//        return response.json();
+//     })
+//     .then(data => {
+//         console.log(data)
+
+//         image.style.display = none;
+
+//         horoPost.innerHTML = data.description
+//     }) 
+//     .catch(err => {
+//         console.error(err);
+//     });
+
+
+// }
