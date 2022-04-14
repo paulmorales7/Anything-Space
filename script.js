@@ -262,7 +262,7 @@ function scorpioFunc() {
      anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/scorpio/"
 
      var styles = {
-         "margin-bottom": "5.4rem",
+         "margin-bottom": "5.15rem",
          "width": "300px"
      }
 
@@ -292,8 +292,8 @@ function sagFunc() {
      anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/sagittarius/"
 
      var styles = {
-         "margin-bottom": "-2rem",
-         "width": "195px"
+         "margin-bottom": "-2.2rem",
+         "width": "225px"
      }
 
     Object.assign(image.style, styles)
@@ -322,8 +322,8 @@ function capricornFunc() {
      anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/capricorn/"
 
      var styles = {
-         "margin-bottom": ".5rem",
-         "width": "195px"
+         "margin-bottom": "-5.4rem",
+         "width": "165px"
      }
 
     Object.assign(image.style, styles)
@@ -352,7 +352,7 @@ function aquariusFunc() {
      anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/aquarius/"
 
      var styles = {
-         "margin-bottom": ".5rem",
+         "margin-bottom": "6rem",
          "width": "195px"
      }
 
@@ -382,7 +382,7 @@ function piscesFunc() {
      anchor.href = "https://www.astrology-zodiac-signs.com/zodiac-signs/pisces/"
 
      var styles = {
-         "margin-bottom": ".5rem",
+         "margin-bottom": "-5.3rem",
          "width": "195px"
      }
 
